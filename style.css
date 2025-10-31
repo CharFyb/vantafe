@@ -109,6 +109,7 @@ a {
     display: flex;
     justify-content: start;
     gap: 37px;
+    padding-left: 3px;
 }
 
 .header_absol--imgbox--conteiner--box--link {
@@ -304,6 +305,7 @@ a {
 }
 
 .aboutus_box--job--bot {
+    max-width: 890px;
     font-family: Open Sans;
     font-weight: 400;
     font-style: Regular;
@@ -369,9 +371,10 @@ a {
     max-width: 1304px;
     margin: 0 auto;
     display: flex;
-    gap: 70px;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 136px;
+    padding-left: 71px;
 }
 
 .numbers_conteiner--box {
@@ -458,7 +461,7 @@ a {
     z-index: 2;
     position: absolute;
     background-color: #99823D;
-    bottom: 0px;
+    bottom: -61px;
     right: 0px;
 }
 
@@ -467,7 +470,7 @@ a {
     width: 34px;
     height: 68px;
     position: absolute;
-    bottom: 0px;
+    bottom: -62px;
     right: 0px;
     z-index: 10;
 }
@@ -487,8 +490,7 @@ a {
     padding: 15px 92px 26px 92px;
     z-index: 5;
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: -61.5px;
 }
 
 .photos_cards--conteiner--box--card--text {
@@ -530,12 +532,13 @@ a {
     z-index: 5;
     position: absolute;
     background-color: #99823D;
-    bottom: 0px;
+    bottom: -61px;
     right: 0px;
 }
 
 .photos_cards--black {
     margin-bottom: 62px;
+    margin-top: 62px;
 }
 
 .services_box {
@@ -676,7 +679,7 @@ a {
     display: flex;
     gap: 53px;
     align-items: center;
-    padding-bottom: 72px;
+    padding-bottom: 134px;
     padding-top: 72px;
 }
 
@@ -751,8 +754,8 @@ footer {
 }
 
 .bottom_bot--yellow--box--input {
-    width: 100%;
-    max-width: 860px;
+    width: 860px;
+    height: 68px;
     font-family: Open Sans;
     font-weight: 700;
     font-style: Bold;
@@ -764,7 +767,7 @@ footer {
     color: #3D3D3D;
     background-color: #FFFFFF;
     border: none;
-    padding: 17px 564px 17px 40px;
+    padding-right: 564px;
 }
 
 .bottom_bot--yellow--box--button {
